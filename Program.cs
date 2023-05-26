@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int answer = 7;
+            Random rnd = new Random();
+            int answer = rnd.Next(11);
             int userGuess;
             int count = 4;
 
