@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int answer = rnd.Next(11);
+            int answer = rnd.Next(11);  // Range of numbers to be randomized are not to exceed past 10.
             int userGuess;
             int count = 4;
 
@@ -20,7 +20,7 @@
                 }
                 else if (userGuess > 10)
                 {
-                    Console.WriteLine("Your answer must be between 1 and 10");
+                    Console.WriteLine("Your answer must be between 1 and 10.");
 
                 }
                 else if (answer != userGuess)
